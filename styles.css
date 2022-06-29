@@ -1,0 +1,161 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    width: 582px;
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    height: 164px;
+    
+    
+}
+
+section {
+    display: inline-block; 
+    margin-bottom: 278px;
+    
+    
+       
+}
+
+p {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-right: 146px;
+    margin-bottom: 55px;
+}
+
+.main-link{
+    font-weight: 500px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+
+}
+
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 177px;
+    margin-left: 121px;
+    margin-right: 60px;
+   
+}
+
+
+header{
+    display: inline-block;
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.header-link {
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    width: 83px;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    padding: 13px 29px 14px 28px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px){
+    .header-link {
+        display: none;
+    }
+
+    .button {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 6px 10px 7px 20px;
+        margin: 0px 15px 0 239px;
+        width: 91px;
+        height: 31px;
+        display: block;
+    }
+
+    .logo-image {
+        position: absolute;
+        width: 301px;
+        height: 277px;
+        display: block;
+        margin-top: 406px;
+        margin-left: 43px;
+        margin-right: 60px;
+    }
+
+    .h1 {
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        margin:auto;
+        margin-right: 122px;
+        margin-top: 50px;
+        margin-left: 60px;
+        display: block;
+    }
+
+    .p {
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        display: block;
+        margin: auto;
+        margin-left: 50px;
+        margin-top: 29px;
+        margin-bottom: 26px
+        
+    }
+
+    .main-link {
+        margin-left: 30%;
+        
+    }
+
+}
+
+
+
+
